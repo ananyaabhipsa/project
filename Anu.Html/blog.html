@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Space</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .post {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .post img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .post h2 {
+            margin-top: 10px;
+        }
+        .post p {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog Space</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <img src="https://picsum.photos/300/200?random=1" alt="Post 1">
+            <h2>Blog Post 1</h2>
+            <p>This is a short description of blog post 1. Stylish and simple design!</p>
+        </div>
+        <div class="post">
+            <img src="https://picsum.photos/300/200?random=2" alt="Post 2">
+            <h2>Blog Post 2</h2>
+            <p>This is a short description of blog post 2. Add images and text as needed.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 My Blog Space
+    </footer>
+</body>
+</html>
